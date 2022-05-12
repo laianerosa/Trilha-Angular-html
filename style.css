@@ -1,0 +1,1239 @@
+/********************** geral ********************/
+* { padding:0; margin:0; vertical-align:baseline; list-style:none;border:0 }
+
+@font-face {
+    font-family: Barrio;
+    src: url(./fonts/Poppins/Poppins-ExtraBold.ttf)
+  }
+  @font-face {
+    font-family: Barrio;
+    src: url(./fonts/Poppins/Poppins-ExtraLight.ttf)
+  }
+
+  body {
+    font-family: 'Barrio';
+}
+
+header {
+    color: white;
+}
+/**espaços**/
+.space-10{height: 10px; width: 100%; display: block;}
+.space-20{height: 20px; width: 100%; display: block;}
+.space-30{height: 30px; width: 100%; display: block;}
+.space-40{height: 40px; width: 100%; display: block;}
+.space-50{height: 50px; width: 100%; display: block;}
+
+/**colunas**/
+.col-1{width: 8,33%;}
+.col-2{width: 16,66%;}
+.col-3{width: 25%;}
+.col-4{width: 33,33%}
+.col-5{}
+.col-6{}
+.col-7{}
+.col-8{width: 66,66%;}
+.col-9{}
+.col-10{}
+.col-11{}
+.col-12{ width: 100%;}
+
+/**texto**/
+h1{}
+h2{}
+h3{}
+h4{}
+h5{}
+p{}
+
+
+/************** menu *******/
+ul.menu li a {border-bottom: 4px solid #f231a5;}
+ul.menu li a:hover  {border-bottom: 4px solid #314bf2;}
+
+
+/************** sessão destaque *******/
+section#destaque { position: absolute; margin-top: -20%; }
+section#destaque .sob-bor .btn-price { color: white; background: linear-gradient( #3CD3C1, #3CD3C1 ); 
+    border-radius: 2px;
+    border-style: none;
+    padding: 1em;
+    
+    right: 10px;
+}
+/*cadastro && login*/
+
+.first {
+    width: 50%;
+    background-image: url(./images/log-img.png), url(./images/image\ 7.png);
+    width: 30%;
+    height: 600px;
+    display: inline;
+    float: left;
+    margin-left: 20%;
+    
+}
+
+.logo1 {
+
+    margin-left: 1em;
+    margin-top: 1em;
+    height: 5%;
+
+}
+
+.parag {
+    margin-top: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.par-um {
+    color: white;
+    font: weight 600PX; 
+    font-family:'Barrio';
+    font-size: 2em;
+    font-weight: bold;
+
+}
+.ret {
+    display: inline;
+    float: left;
+    margin-left: 20%;
+    padding-right: 1%;
+}
+
+.par-dois  { 
+    font-weight: lighter;
+    
+    color: white;
+    font-family: 'Barrio';
+    font-size: 1em;
+    font: weight 200 ; 
+
+}
+
+.sig {
+    color:black ;
+    font-family:  'Barrio';
+    font-size: 1.2em;
+    font: weight 300 ; 
+    
+
+}
+
+.footer-log {
+    font-size: 10px;
+    color: white;
+    /*margin-top: 80%;*/
+    text-align: center;
+    padding-top: 60%;
+  
+    
+}
+
+#name {
+    color: black;
+    font-family: 'Barrio';
+    border-radius: 2px;
+    border-style: none;
+    border-color: #EAEAEA;
+    background:url(./icons/user-black.svg) no-repeat left center , #EAEAEA;
+    width: 40%;
+    padding: 0.6em;
+
+}
+
+#email {
+    color: black;
+    font-family: 'Barrio';
+    border-radius: 2px;
+    border-style: none;
+    border-color: #EAEAEA;
+    background:url(./icons/email.svg) no-repeat left center , #EAEAEA;
+    width: 40%;
+    padding: 0.6em;
+
+}
+
+#senha {
+    padding-left: 0.4em;
+    color: black;
+    font-family: 'Barrio';
+    border-radius: 2px;
+    border-style: none;
+    border-color: #EAEAEA;
+    background:url(./icons/senha.svg) no-repeat left, #EAEAEA;
+    width: 40%;
+    padding: 0.6em;
+
+}
+
+.form input {
+    color: black;
+    font-family: 'Barrio';
+    border-radius: 2px;
+    border-style: none;
+    border-color: #EAEAEA;
+    background: #EAEAEA;
+    width: 40%;
+    padding: 0.6em;
+}
+
+.esq-senha {
+    
+    font-size: 0.8em;
+    margin-left: 20%;
+    font-style: bold;
+
+}
+
+.submit {
+    color: white;
+    background:linear-gradient( #FF5F5F, #F062C0 );
+    border-radius: 2px;
+    border-style: none;
+    border-color: #EAEAEA;
+    width: 35%;
+    padding: 0.6em;
+    margin-left: 20%;
+    margin-top: 2%;
+    
+}
+
+.cad {
+
+    font-size: 0.8em;
+    margin-left: 22%;
+    display: inline;
+    float: left;
+    text-align: center;
+
+}
+
+.cadcad {
+    color: black;
+    font-size: 0.75em;
+    margin-left: 21%;
+    display: inline;
+    float: left;
+    text-align: center;
+
+}
+.log {
+    color: black;
+    margin-top: 1em;
+}
+
+
+
+.logo2 {
+
+    margin-left: 25%;
+    margin-top: 20%;
+    height: 8%;
+
+}
+
+.logo3 {
+
+    margin-left: 30%;
+    margin-top: 20%;
+    height: 5%;
+
+}
+
+.login {
+    width: 50%;
+    height: 600px;
+    display: inline;
+    float: left;;
+}
+
+h3 {
+    margin-left: 20%;
+}
+.form {
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+
+/*nav*/
+
+.logonav {
+    display: inline;
+    float: left;
+    padding-left: 2em;
+    padding-right: 1em;
+
+
+
+}
+
+.navbar-game {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+    background: url(./icons/opaco.svg), url(./icons/banner-game.svg), no-repeat center right;
+    padding-top: 2em;
+    padding-bottom: 30em;
+    z-index: 0;
+    position: relative;
+
+    
+    
+}
+
+.navbar-home {
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+    background:#06092B ;
+    padding-top: 2em;
+    padding-bottom: 30em;
+    z-index: 0;
+    position: absolute;
+    display: inline;
+
+    
+    
+}
+
+.navbar{
+   
+    background: linear-gradient(0deg, #06092B, #06092B), #F1F3FF;
+    padding: 3em;
+   
+
+}
+
+.nav-tamanhogame {
+   
+    padding-left: 4%;
+    
+}
+
+.nav-tamanho {
+    width: 90%;
+    padding-left: 7%;
+    
+}
+
+
+.menu {
+font-family: 'Barrio';
+font-style: normal;
+display: inline;
+margin-top: 3em;
+text-decoration: none ;
+
+}
+
+a:visited {
+    color: white;
+}
+
+.link {
+    color: black;
+}
+a:link {
+    text-decoration: none ;
+    color: white;
+    
+}
+
+
+.menu li {
+    font-family: 'Barrio';
+    font-style: bold;
+    display: inline;
+    padding-left: 1em;
+    padding-right: 0.5em;
+    padding-top: 2em;
+    color: white;
+    text-decoration: none ;
+    
+}
+
+.linha-rosagame {
+    margin-bottom: 1em;
+    margin-left: 5.7em;
+}
+
+.linha-rosa {
+    margin-bottom: 1em;
+    margin-left: 5.7em;
+}
+.linha-rosa-home {
+    display:block;
+    margin-bottom: 1em;
+    margin-left: 11.9em;
+}
+
+
+.log {
+    color: white;
+}
+
+.espaco-nav {
+    margin-left: 50%;
+  
+}
+
+/*footer*/
+
+.footer {
+    
+ 
+   
+    padding-top: 1em;
+}
+ 
+
+
+.logofooter {
+    width: 8em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0.2em;
+    display: inline;
+    float: left;
+ 
+}
+
+
+
+.list1 {
+    background-color: white;
+  
+    padding-left:19.2%;
+    
+    display: inline;
+    float: left;
+   padding-bottom:5em ;
+    
+}
+.list2 {
+    background-color: white;
+    padding-left: 8em;
+    padding-top: 4.4em;
+    display: inline;
+    float: left;
+    padding-bottom:1em ;
+    
+
+}
+.list3 {
+    background-color: white;
+    padding-left: 8em;
+    padding-top: 4.4em;
+    display: inline;
+    float: left; 
+    padding-bottom: 3em ;
+    
+}
+.list4 {
+    background-color: white;
+    padding-left: 8em;
+    padding-top: 4.4em;
+    display: inline;
+    float: left;
+    padding-bottom:3em ;
+    padding-right: 16.87%;
+}
+
+.list1 li {
+    padding-bottom: 0.5em;
+
+}
+.list2 li {
+    padding-bottom: 0.5em;
+
+}
+.list3 li {
+    padding-bottom: 0.5em;
+
+}
+.list4 li {
+    padding-bottom: 0.5em;
+
+}
+
+/*home*/
+
+.banner-defy {
+    top: 10em;
+    background: url(./icons/banner-defy.svg) no-repeat;
+    height: 50%;
+    width: 70%;
+    margin-left: 15%;
+    position: relative;
+    z-index: 99;
+}
+
+.opaco {
+    height: 50%;
+    width: 98%;
+    padding-bottom: 2em;
+    color: white;
+    padding-top: 23em;
+    background: url(./icons/opaco.svg) no-repeat bottom ;
+}
+
+.buy-now {
+    color: white;
+    
+    background:linear-gradient( #FF5F5F, #F062C0 );
+    border-radius: 3px;
+    border-style: none;
+    border-color: #EAEAEA;
+    width: 17%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    margin-top: 2%;
+    
+}
+
+.espaco-branco {
+    background-color: white;
+    width: 100%;
+}
+
+.you2 {
+    background-color: white;
+    margin-left: 7.5em;
+    display: block;
+    margin-top: 12em;
+
+}
+
+.tit-h {
+    margin: ;
+}
+
+.sig-game7 {
+    background-color: white;
+    width: 100%;
+    float:left;
+    color:black ;
+    font-family:  'Barrio';
+    font-size: 1.2em;
+    font: weight 300 ; 
+    font-weight: bold;
+    margin-top: 2em;
+    left: 15em;
+   
+
+}
+
+.sales4 {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 89%);
+    background-color: white;
+    width: 80%;
+    color: white;
+    margin-top: 2em;
+    margin-left: 14em;
+    display: inline;
+    float: left;
+    padding-bottom: 10em;
+
+}
+
+.prop {
+    /*clip-path: polygon(0 0, 100% 12%, 100% 100%, 0% 100%);
+    background-color: #06092B;
+    z-index: 0;
+    position: relative;*/
+    background-color: #06092B;
+}
+
+.cor-body {
+
+    clip-path: polygon(0 0, 100% 6%, 100% 100%, 0% 100%);
+    background-color: #06092B;
+   
+    padding-bottom: 30em;
+
+}
+
+.border-par {
+    color: white;
+    
+    margin-left: 1.7em;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+/* read*/
+
+.read {
+
+    margin-top: 3em;
+    margin-left: 5em;
+}
+
+.banner-read {
+    margin-top: 2em;
+    background: url(./icons/opaco.svg), url(./icons/bannerread.svg), no-repeat center right;
+    width: 72%;
+    height: 300px;
+    margin-left: 9.5em;
+    margin-right: 1%;
+}
+
+.banner-border {
+    margin-top: 2em;
+    background: url(./icons/personagem-border.svg) no-repeat no-repeat right center ,     url(./icons/opaco.svg), url(./icons/border-banner.svg), no-repeat center right;
+    width: 75%;
+    height: 300px;
+    margin-left: 6.5%;
+    margin-right: 5.5% ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*store*/
+
+store body {
+    clip-path: polygon(0 0, 100% 0, 100% 17%, 0 41%);
+    background-color: #06092B;
+}
+
+
+.conteiner-lat {
+    margin-top: 5em;
+    display: inline;
+    float: left;
+    width: 15%;
+    color: white;
+    margin-left: 5em;
+}
+
+
+
+
+.linharosa {
+    margin-left: 0.1em;
+    margin-bottom: 3em;
+
+}
+
+.titlestore {
+    margin-left: 0.1em;
+}
+
+
+.sales {
+    margin-top: 5em;
+    color: white;
+    margin-left: 10%;
+    z-index: 0;
+    display: inline;
+    float: left;
+
+}
+
+.pesquisar input {
+    font-family: 'Barrio';
+    border-radius: 2px;
+    border-style: none;
+    border-color: #EAEAEA;
+    background: #EAEAEA;
+    height: 3em;
+    width: 32%;
+    margin-bottom: 2em;
+    background-color: lightgray;
+}
+
+.jogo1{
+    
+    display: flex;
+    flex-direction: row;
+    display: inline;
+    float: left;
+    margin-right: 1em;
+    background-color: white;
+    color: black;
+    
+
+}
+
+.jogo2{
+    color: black;
+    display: inline;
+    float: left;
+    margin-right: 1em;
+    background-color: white;
+
+}
+
+.jogo3{
+    color: black;
+    display: inline;
+    float: left;
+    background-color: white;
+   
+    
+
+}
+#p {
+    margin-left: 2em;
+    font-size: 0.6em;
+}
+
+.jogo3-{
+    display: inline;
+    float: left;
+    margin-top: 1em ;
+    
+
+}
+
+.show-more {
+    text-align: center;
+    padding-top: 15em;
+    margin-right: 11em;
+}
+
+.show {
+    margin-left: 27em;
+    margin-bottom: 5em;
+}
+
+.btn-price2 {
+    color: white;
+    background:linear-gradient( #3CD3C1, #3CD3C1 );
+    border-radius: 2px;
+    border-style: none;
+    width: 30%;
+    padding: 0.7em;
+    margin-left: 65%;
+    margin-top: 2%;
+    margin-bottom: 1em;
+
+    
+}
+
+/*game page*/
+
+.game {
+
+    background-color: #06092B;
+    z-index: 0;
+
+}
+
+.sob-bor {
+    width: auto;
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5em;
+    padding: 2em;
+    margin-top: 104px;
+}
+
+.sob-bor h3 {
+    font-weight: bold;
+        
+    margin-left: 7%;
+    
+    
+   
+}
+
+.sob-bor h5 {
+    margin-top: -3em;
+    margin-left: 7%;
+    
+    
+   
+}
+
+.linha-rosasob {
+    margin-bottom: 3em;
+    margin-left: 5.5em;
+}
+
+.btn-price {
+    color: white;
+    
+    background:linear-gradient( #3CD3C1, #3CD3C1 );
+    border-radius: 2px;
+    border-style: none;
+    width: 10%;
+    padding: 1em;
+    margin-left: 70%;
+    margin-top: 2%;
+    
+}
+
+
+
+.submit-buy {
+    color: white;
+    
+    background:linear-gradient( #FF5F5F, #F062C0 );
+    border-radius: 2px;
+    border-style: none;
+    border-color: #EAEAEA;
+    width: 15%;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    margin-left: 5% ;
+    margin-top: 2%;
+    
+}
+
+.carrossel {
+    margin-top: 13em;
+    margin-left: 5%;
+}
+
+.car1{
+    display: flex;
+    flex-direction: row;
+    display: inline;
+    float: left;
+    margin-right: 1em;
+    
+    
+
+}
+
+.car2{
+    display: inline;
+    float: left;
+    margin-right: 1em;
+
+}
+
+.car3{
+    display: inline;
+    float: left;
+   
+    
+
+}
+
+.car3{
+    display: inline;
+    float: left;
+    margin-right: 1em;
+   
+    
+
+}
+
+.car3{
+    display: inline;
+    float: left;
+    margin-right: 1em;
+   
+    
+
+}
+
+.sob2 {
+
+    
+    width: 90%;
+    background-color: white;
+    margin-top: 7em;
+    padding-top: 1em;
+    margin-left: 5%;
+    margin-bottom: 5em;
+    padding-bottom: 2em;
+}
+
+
+.sob2 h3 {
+    font-weight: bold;
+        
+    margin-left: 7%;
+    
+    
+   
+}
+
+.sob2 h5 {
+    margin-top: -3em;
+    margin-left: 7%;
+    
+    
+   
+}
+
+.img-sob {
+    display: inline;
+    float: left;
+    margin: 2em;
+}
+
+.log-game {
+    color: black;
+    margin-top: 2em;
+}
+.sig-game {
+    color:black ;
+    font-family:  'Barrio';
+    font-size: 1.2em;
+    font: weight 300 ; 
+    
+
+}
+
+.ret-game {
+    display: inline;
+    float: left;
+    
+    padding-right: 1%;
+}
+
+.log-game p {
+    color: black;
+    margin-top: 2em;
+}
+
+.log-game2 {
+    color: black;
+    margin-top: 2em;
+}
+.sig-game2 {
+    color:black ;
+    font-family:  'Barrio';
+    font-size: 1.2em;
+    font: weight 300 ; 
+    font-weight: bold;
+   
+   
+    
+    
+
+}
+
+.ret-game2 {
+    display: inline;
+    float: left;
+    margin-left:2em ;
+    padding-right: 0.8em;
+    
+}
+
+.log-game2 p {
+    color: black;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+
+.sob-pc {
+
+    background-color: #06092B;
+
+}
+
+.log-game3 {
+    color: black;
+    margin-top: 2em;
+    margin-left: 5%;
+    color: white;
+}
+
+.log-game3 p h6 {
+    display: inline;
+}
+
+.sig-game3 {
+    color:white; 
+    font-family:  'Barrio';
+    font-size: 1.2em;
+    font: weight 300 ; 
+    font-weight: bold;
+    display: inline;
+
+}
+
+.sig-game33 {
+    color:black ;
+    font-family:  'Barrio';
+    font-size: 1.2em;
+    font: weight 300 ; 
+    font-weight: bold;
+
+}
+
+.ret-game3 {
+    display: inline;
+    float: left;
+    margin-left:0.5em ;
+    padding-right: 0.8em;
+    
+}
+
+.log-game3 h3 {
+    color: black;
+    margin-top: 2em;
+    margin-left: 1em;
+    display: inline;
+
+}
+
+.sob3{
+
+    
+    color: white;
+    background-color: #06092B;
+    margin-top: 7em;
+    padding-top: 1em;
+    
+    margin-bottom: 5em;
+
+   
+    padding-bottom: 2em;
+}
+
+.tit {
+    display: inline;
+    float: left;
+    padding-left: 3em;
+    padding-right: 6em;
+    padding-bottom: 2em;
+}
+
+.titend {
+
+    padding-left: 3em;
+    padding-right: 6em;
+    padding-bottom: 2em;
+}
+
+.titend2 {
+
+    padding-left: 10em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+.tit1 {
+    display: inline;
+    float: left;
+    padding-left: 2.5em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+.tit2 {
+    display: inline;
+    float: left;
+    padding-left: 1em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+.tit3 {
+    display: inline;
+    float: left;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+.tit4 {
+    display: inline;
+    float: left;
+    padding-left: 6em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+.tit5 {
+    display: inline;
+    float: left;
+    padding-left: 6.5em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+.tit6 {
+    display: block;
+    float: left;
+    padding-left: 4em;
+    padding-right: 5em;
+    padding-bottom: 2em;
+}
+
+
+.sig-game4 {
+    color:white; 
+    font-family:  'Barrio';
+    font-size: 1.2em;
+    font: weight 300 ; 
+    font-weight: bold;
+    display: inline;
+    padding-right: 2em;
+    padding-left: 7m;
+    margin-left: 2.5em;
+
+}
+
+
+
+.dados {
+    margin-left: 3em;
+}
+
+.system {
+    display: inline;
+    float: left;
+    margin-right: 12.5em;
+}
+
+.process {
+    display: inline;
+    float: left;
+    margin-right: 10em;
+
+}
+
+.gpu {
+    display: inline;
+    float: left;
+    margin-right: 14.2em;
+
+}
+
+.win {
+    display: inline;
+    float: left;
+    margin-right: 3.3em;
+
+}
+
+.core {
+    display: inline;
+    float: left;
+    margin-right: 3.8em;
+
+}
+
+.pro {
+    display: inline;
+    float: left;
+    margin-right: 4.5em;
+
+}
+
+.cs {
+    color: white;
+    margin-top: 17em;
+    margin-left: 5em;
+}
+
+.banner-cs {
+    margin-top: 2em;
+    background: url(./icons/opaco.svg), url(./icons/banner-cs.svg), no-repeat center right;
+    width: 90%;
+    height: 300px;
+    margin-left: 2em;
+}
+
+.img-cs {
+        display: inline;
+        float: left;
+        height: 298px;
+}
+
+.cs-par {
+    color: white;
+    margin-top: 3em;
+    margin-left: 20em;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.esc-cs {
+    padding-top: 5em;
+}
+
+.sales2 {
+    
+    color: white;
+    margin-top: 2em;
+    margin-left: 7em;
+    z-index: 0;
+    display: inline;
+    float: left;
+    
+
+}
+
+.sales3 {
+    
+    color: white;
+    margin-top: 2em;
+    margin-left: 7em;
+    display: inline;
+    float: left;
+    padding-bottom: 10em;
+
+}
+
+.you {
+    margin-top: 3em;
+    background-color: #F2F2F2;
+}
+
+.sig-game6 {
+    display: inline;
+    float: left;
+    color:white ;
+    font-family:  'Barrio';
+    font-size: 1.2em;
+    font: weight 300 ; 
+    font-weight: bold;
+    margin-left: 0.5em;
+    margin-top: 3em;
+   
+
+}
+
+.ret-game6 {
+    display: inline;
+    float: left;
+    margin-left: 5.4em;
+    margin-right: 0.5em;
+   
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
